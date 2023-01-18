@@ -47,9 +47,9 @@ app.put('/image', (req, res) => {
 
 app.post('/imageurl', (req, res)=>{entrieCount.handleApiCall(req, res)});
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3001;
 
-app.listen(PORT || 3001, ()=>{
+app.listen(PORT, ()=>{
 	console.log('App is running', PORT);
 });
 
