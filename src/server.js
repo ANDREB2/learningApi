@@ -11,7 +11,7 @@ const entrieCount = require('./controllers/EntriesCount');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host: 'dpg-cf3vgj9a6gdmd1i55l5g-a.oregon-postgres.render.com',
+		host: process.env.DATABASE_URL,
 		user: 'smartbrain_d9m1_user',
 		password: 'hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG',
 		database: 'smartbrain_d9m1'
