@@ -11,10 +11,10 @@ const entrieCount = require('./controllers/EntriesCount');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host: 'localhost',
-		user: 'postgres',
-		password: 'admin',
-		database: 'smart-brain'
+		host: 'dpg-cf3vgj9a6gdmd1i55l5g-a',
+		user: 'smartbrain_d9m1_user',
+		password: 'hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG',
+		database: 'smartbrain_d9m1'
 	}
 });
 
