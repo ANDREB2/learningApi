@@ -11,13 +11,13 @@ const entrieCount = require('./controllers/EntriesCount');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host: 'dpg-cf3vgj9a6gdmd1i55l5g-a',
+		host: 'dpg-cf3vgj9a6gdmd1i55l5g-a.oregon-postgres.render.com',
 		user: 'smartbrain_d9m1_user',
 		password: 'hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG',
 		database: 'smartbrain_d9m1'
 	}
 });
-
+//postgres://smartbrain_d9m1_user:hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG@dpg-cf3vgj9a6gdmd1i55l5g-a.oregon-postgres.render.com/smartbrain_d9m1
 /*db.select('*').from('users').then(data => {
 	console.log(data);
 });*/
