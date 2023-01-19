@@ -14,7 +14,8 @@ const db = knex({
 		host: process.env.DATABASE_URL,
 		user: 'smartbrain_d9m1_user',
 		password: 'hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG',
-		database: 'smartbrain_d9m1'
+		database: 'smartbrain_d9m1',
+		port: 5432
 	}
 });
 //postgres://smartbrain_d9m1_user:hv0PuoOBG4ipnLqgFLbtzPnABtwZLfPG@dpg-cf3vgj9a6gdmd1i55l5g-a.oregon-postgres.render.com/smartbrain_d9m1
